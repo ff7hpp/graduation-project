@@ -1,0 +1,34 @@
+name: Documentation
+description: Propose or report documentation work
+title: "[Docs] "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: input
+    id: requirements
+    attributes:
+      label: Related requirements
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true
+  - type: textarea
+    id: testing
+    attributes:
+      label: Review or validation
+  - type: textarea
+    id: documentation
+    attributes:
+      label: Documentation changes
