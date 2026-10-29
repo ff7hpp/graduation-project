@@ -1,6 +1,13 @@
-# Graduation Project Workspace
+# Graduation Projects Workspace
 
-This repository is the shared foundation for a university graduation project. The project name, problem domain, scope, and technology choices are **TBD** until approved.
+This repository contains two independent university graduation projects. Their requirements, architecture, code, tests, reports, and diagrams must remain isolated.
+
+| Project | Owner | Workspace |
+| --- | --- | --- |
+| Project 1 | Abdulrahman (عبد الرحمن) | [`عبد الرحمن/`](عبد الرحمن/README.md) |
+| Project 2 | Alaa (آلاء) | [`آلاء/`](آلاء/README.md) |
+
+Shared repository instructions, collaboration templates, and reusable Codex skills remain at the root. Project-specific output belongs only in the matching workspace.
 
 ## Status
 
@@ -26,13 +33,15 @@ TBD. No stack, runtime, database, or deployment platform is verified in this rep
 
 ## Structure
 
-- `docs/` — requirements, architecture, decisions, testing, planning, and research.
+- `عبد الرحمن/` — Abdulrahman's independent project workspace.
+- `آلاء/` — Alaa's independent project workspace.
+- `.agents/skills/` — shared, reusable Codex workflows.
 - `.github/` — issue and pull request templates.
-- `.agents/skills/` — focused Codex documentation workflows.
-- `AGENTS.md` — persistent engineering instructions.
+- Root `docs/` — shared repository-foundation guidance retained from the initial setup.
+- `AGENTS.md` — repository-wide isolation and engineering instructions.
 
 ## Getting started
 
-There are currently no installation, execution, or test commands because no application implementation or dependencies exist. Start with [`docs/requirements/SRS.md`](docs/requirements/SRS.md), then record approved decisions in [`docs/architecture/README.md`](docs/architecture/README.md).
+There are currently no installation, execution, or test commands because neither project has verified implementation or dependencies. First select the intended workspace, read its `AGENTS.md`, and then use its documentation templates.
 
 See [`docs/README.md`](docs/README.md) for the documentation index and [`CONTRIBUTING.md`](CONTRIBUTING.md) for collaboration workflow.
