@@ -42,13 +42,7 @@ Shared instructions, GitHub configuration, and reusable Codex skills remain at t
 ### مثال Prompt لإنشاء Architecture
 
 ```text
-I am working only on the Abdulrahman project.
-First, read README.md, AGENTS.md, and all files inside Abdulrahman/files/. Do not modify anything inside Alaa/.
-I want an initial architecture design for my project based only on the available information.
-Before creating any diagram, summarize the verified components and relationships, and mark missing information as TBD.
-Then create the appropriate diagram and save the editable file inside Abdulrahman/architecture/.
-Do not invent services, databases, APIs, or technologies that are not present in the files.
-Review the diagram for clear names and relationships, then explain which files you created and which decisions need my approval.
+I am working only on Abdulrahman’s project. Read its files first, do not modify Alaa’s project, and use verified information only. Create and review an initial architecture diagram, mark missing details as TBD, and save the editable file in `Abdulrahman/architecture/`. Do not invent technologies, services, databases, or APIs.
 ```
 
 ## محتويات كل مشروع
