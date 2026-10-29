@@ -1,6 +1,6 @@
 # Graduation Projects Workspace
 
-This repository contains two independent university graduation projects. Keep their files isolated and use the smallest practical structure.
+هذا المستودع يحتوي على مشروعين مستقلين للتخرج. كل مشروع له ملفاته ومتطلباته الخاصة، ولا يتم خلط ملفات المشروعين معًا.
 
 | Project | Owner | Workspace |
 | --- | --- | --- |
@@ -9,39 +9,40 @@ This repository contains two independent university graduation projects. Keep th
 
 Shared instructions, GitHub configuration, and reusable Codex skills remain at the root. Project files belong only in the matching workspace.
 
-## Status
+## الهدف من المستودع
 
-Foundation initialized. Requirements, architecture, implementation scope, and milestones remain to be defined.
+تنظيم عمل Abdulrahman وAlaa في مكان واحد بطريقة واضحة، بحيث يستطيع كل شخص تطوير مشروعه وتوثيق متطلباته وملفاته بشكل مستقل.
 
-## Objectives
+## المطلوب لكل مشروع
 
-- Establish traceable requirements and acceptance criteria.
-- Document an approved architecture and its trade-offs.
-- Plan implementation, verification, and academic deliverables.
+- تحديد فكرة المشروع والمشكلة التي يحلها.
+- كتابة المتطلبات والأهداف بشكل واضح.
+- إضافة الملفات والمستندات الخاصة بالمشروع.
+- إضافة الصور والمخططات عند الحاجة.
+- توثيق أي قرارات أو تغييرات مهمة.
 
-## Team
+## طريقة الاستخدام
 
-Contributor 1: TBD
+1. اختر مجلد المشروع المطلوب: `Abdulrahman/` أو `Alaa/`.
+2. اقرأ ملف `AGENTS.md` داخل المشروع.
+3. ضع ملفاتك داخل مجلد مشروعك فقط.
+4. لا تعدل ملفات المشروع الآخر بدون إذن.
+5. استخدم مجلد `architecture/` للمخططات عند طلبها، ومجلد `files/` لبقية المستندات.
 
-Contributor 2: TBD
+## محتويات كل مشروع
 
-Academic supervisor: TBD
+- `README.md` — معلومات مختصرة عن المشروع.
+- `AGENTS.md` — تعليمات العمل الخاصة بالمشروع.
+- `files/` — المستندات والملفات.
+- `images/` — الصور والملفات المرئية.
+- `architecture/` — مخططات وتصميم المشروع عند الحاجة.
 
-## Technology stack
+## معلومات غير محددة بعد
 
-TBD. No stack, runtime, database, or deployment platform is verified in this repository.
+اسم المشروع، وصفه، أهدافه، ومتطلباته التفصيلية ما زالت `TBD` إلى أن يتم تحديدها واعتمادها.
 
-## Structure
+## الملفات المشتركة
 
-- `Abdulrahman/` — Abdulrahman's project: `README.md`, `AGENTS.md`, `files/`, `images/`, `architecture/`.
-- `Alaa/` — Alaa's project: `README.md`, `AGENTS.md`, `files/`, `images/`, `architecture/`.
-- `.agents/skills/` — shared, reusable Codex workflows.
-- `.github/` — issue and pull request templates.
-- Root `docs/` — shared repository-foundation guidance retained from the initial setup.
-- `AGENTS.md` — repository-wide isolation and engineering instructions.
-
-## Getting started
-
-No installation or test commands are currently verified. Select a project, read its `AGENTS.md`, and keep new work in that project folder.
-
-See [`docs/README.md`](docs/README.md) for the documentation index and [`CONTRIBUTING.md`](CONTRIBUTING.md) for collaboration workflow.
+- `AGENTS.md` — تعليمات المستودع العامة.
+- `.agents/skills/` — المهارات المشتركة.
+- `.github/` — قوالب GitHub المشتركة.
