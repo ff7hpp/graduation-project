@@ -1,13 +1,13 @@
 # Graduation Projects Workspace
 
-This repository contains two independent university graduation projects. Their requirements, architecture, code, tests, reports, and diagrams must remain isolated.
+This repository contains two independent university graduation projects. Keep their files isolated and use the smallest practical structure.
 
 | Project | Owner | Workspace |
 | --- | --- | --- |
-| Project 1 | Abdulrahman (عبد الرحمن) | [`عبد الرحمن/`](عبد الرحمن/README.md) |
-| Project 2 | Alaa (آلاء) | [`آلاء/`](آلاء/README.md) |
+| Project 1 | Abdulrahman | [`Abdulrahman/`](Abdulrahman/README.md) |
+| Project 2 | Alaa | [`Alaa/`](Alaa/README.md) |
 
-Shared repository instructions, collaboration templates, and reusable Codex skills remain at the root. Project-specific output belongs only in the matching workspace.
+Shared instructions, GitHub configuration, and reusable Codex skills remain at the root. Project files belong only in the matching workspace.
 
 ## Status
 
@@ -33,8 +33,8 @@ TBD. No stack, runtime, database, or deployment platform is verified in this rep
 
 ## Structure
 
-- `عبد الرحمن/` — Abdulrahman's independent project workspace.
-- `آلاء/` — Alaa's independent project workspace.
+- `Abdulrahman/` — Abdulrahman's project: `README.md`, `AGENTS.md`, `files/`, `images/`, `architecture/`.
+- `Alaa/` — Alaa's project: `README.md`, `AGENTS.md`, `files/`, `images/`, `architecture/`.
 - `.agents/skills/` — shared, reusable Codex workflows.
 - `.github/` — issue and pull request templates.
 - Root `docs/` — shared repository-foundation guidance retained from the initial setup.
@@ -42,6 +42,6 @@ TBD. No stack, runtime, database, or deployment platform is verified in this rep
 
 ## Getting started
 
-There are currently no installation, execution, or test commands because neither project has verified implementation or dependencies. First select the intended workspace, read its `AGENTS.md`, and then use its documentation templates.
+No installation or test commands are currently verified. Select a project, read its `AGENTS.md`, and keep new work in that project folder.
 
 See [`docs/README.md`](docs/README.md) for the documentation index and [`CONTRIBUTING.md`](CONTRIBUTING.md) for collaboration workflow.
