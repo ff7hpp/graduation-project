@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+.cache/
+coverage/
+dist/
+build/
+tmp/
+*.log
