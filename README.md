@@ -56,3 +56,7 @@ Shared instructions, GitHub configuration, and reusable Codex skills remain at t
 - `AGENTS.md` — تعليمات المستودع العامة.
 - `.agents/skills/` — المهارات المشتركة.
 - `.github/` — قوالب GitHub المشتركة.
+- `CONTRIBUTING.md` — طريقة التعاون والمراجعة بين أعضاء الفريق.
+- `.gitignore` — الملفات التي لا يجب حفظها في Git.
+
+هذه الملفات تبقى في الجذر لأنها مشتركة بين المشروعين. نقلها إلى داخل `Abdulrahman/` أو `Alaa/` سيجعل التعليمات غير مشتركة وقد يسبب فوضى أو تكرارًا.
